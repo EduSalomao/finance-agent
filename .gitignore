@@ -1,0 +1,9 @@
+\n+# n8n runtime data, database, logs and local configuration
+n8n_data/*
+!n8n_data/nodes/
+!n8n_data/nodes/package.json
+
+# Local environment files
+.env
+.env.*
+!.env.example
